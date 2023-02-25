@@ -30,11 +30,11 @@ var noturno = {
     pontos:0
 };
 
-var elementoTabela = document.getElementById('tabelaJogadores');
-
 exibirNaTela();
 
 function exibirNaTela() {
+    var elementoTabela = document.getElementById('tabelaJogadores');
+    
     elementoTabela.innerHTML = `
         <tr>
             <td>${xander.nome}</td>
